@@ -1,8 +1,8 @@
 document.getElementById("generateButton").addEventListener("click", function () {
     const dropdown1Value = document.getElementById("dropdown1").value;
-    const dropdown2Value = document.getElementById("dropdown2").value;
-    const dropdown3Value = document.getElementById("dropdown3").value;
-    const dropdown4Value = document.getElementById("dropdown4").value;
+    //const dropdown2Value = document.getElementById("dropdown2").value;
+    //const dropdown3Value = document.getElementById("dropdown3").value;
+    //const dropdown4Value = document.getElementById("dropdown4").value;
 
     const table = document.getElementById("dataTable");
     table.innerHTML = ""; // Clear existing table content
@@ -17,12 +17,36 @@ document.getElementById("generateButton").addEventListener("click", function () 
             ["Amreli", "300", "1500", "2500"],
             //["Option 2 - Data E", "Option 2 - Data F", "Option 2 - Data G", "Option 2 - Data H"],
         ],
+        option3: [
+            ["Anand", "600", "900", "2200"],
+        ],
+        option4: [
+            ["Aravalli", "300", "600", "1800"],
+        ],
+        option5: [
+            ["Banaskantha", "600", "500","3500"],
+        ],
+        option6: [
+            ["Bharuch", "400", "500", "3500"],
+        ],
+        option7: [
+            ["Botad", "200", "500", "1300"],
+        ],
+        option8: [
+            ["Chhota Udaipur", "200", "500", "1000"],
+        ],
+        option9: [
+            ["Dahod", "300", "500", "2000"],
+        ],
+        option10: [
+            ["Dang", "100", "200", "600"],
+        ]
         // Add more options and data sets as needed
     };
 
     // Create table headers
     const headers = document.createElement("tr");
-    headers.innerHTML = `<th>${dropdown1Value}</th><th>${dropdown2Value}</th><th>${dropdown3Value}</th><th>${dropdown4Value}</th>`;
+    headers.innerHTML = `<th>Region</th><th>No. of Schools</th><th>DropOuts 6th-10th</th><th>DropOuts 11th-12th</th>`;
     table.appendChild(headers);
 
     // Get the selected data set based on dropdown values
