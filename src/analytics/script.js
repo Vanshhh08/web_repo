@@ -10,12 +10,12 @@ document.getElementById("generateButton").addEventListener("click", function () 
     // Define data sets for each option
     const dataSets = {
         option1: [
-            ["Option 1 - Data 1", "Option 1 - Data 2", "Option 1 - Data 3", "Option 1 - Data 4"],
-            ["Option 1 - Data 5", "Option 1 - Data 6", "Option 1 - Data 7", "Option 1 - Data 8"],
+            ["Ahemdabad", "2500", "200", "4100"],
+            //["Option 1 - Data 5", "Option 1 - Data 6", "Option 1 - Data 7", "Option 1 - Data 8"],
         ],
         option2: [
-            ["Option 2 - Data A", "Option 2 - Data B", "Option 2 - Data C", "Option 2 - Data D"],
-            ["Option 2 - Data E", "Option 2 - Data F", "Option 2 - Data G", "Option 2 - Data H"],
+            ["Amreli", "300", "1500", "2500"],
+            //["Option 2 - Data E", "Option 2 - Data F", "Option 2 - Data G", "Option 2 - Data H"],
         ],
         // Add more options and data sets as needed
     };
