@@ -6,16 +6,20 @@
 
 
         .top-bar {
-            background-image: linear-gradient(to right, #f5914e, #e85826);
-            ;
+            background-image: linear-gradient(to right, #f5914e, #e85826);;
             padding: 1px 100px;
             margin-top: -10px;
-            width: 100%;
+            /*width: 100%;*/
             margin-left: -8px;
             height: 50px;
         }
 
-
+        body {
+            background-image: url("../../assets/body.png");
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
 
 
         * {
@@ -264,7 +268,7 @@
         }
 
         h1 {
-            color: #555;
+            color: white;
             text-align: center;
             margin: 20px;
             font-size: 40px;
@@ -310,6 +314,7 @@
             border: 1px solid #ccc;
         }
 
+        td,
         th {
             background-color: #f2f2f2;
         }
@@ -382,8 +387,6 @@
     
 
     <div class="container">
-        
-         
         <h1>Data Generator</h1>
         <div class="dropdowns">
             <select id="dropdown1">
