@@ -3,74 +3,45 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analytics-DropOut</title>
+    <title>Dropdown Example</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <div class="top-bar">
-        <div class="nav">
-            <ul>
-                <li><a href="#" class="active">Avail services</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-            <div class="border">
-
-            </div>
-            <div class="language">
-                <ul>
-                    <li><a href="#">English</a></li>
-
-                </ul>
-                <div class="border2">
-
-                </div>
-                <div class="language2">
-                    <ul>
-                        <li><a href="#">हिन्दी</a></li>
-                    </ul>
-                </div>
-                <div class="login">
-                    <p>Login</p>
-
-                </div>
-            </div>
-
-        </div>
-        <div class="logo">
-            <img src="../../assets/logo.png" height="130px" width="100px">
-
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn">More..</button>
-            <div class="dropdown-content">
-                <a href="#">Schools</a>
-                <a href="#">Hospitals</a>
-                <a href="#">Districts</a>
-                <a href="#">About Gujrat</a>
-                <a href="#">Orphanages</a>
-                <a href="#">Welfare</a>
-            </div>
-        </div>
-        <div class="heading">
-            ગુજરાત સરકાર
-
-        </div>
-        <div class="heading2">
-            GOVERMENT OF GUJRAT
-        </div>
-        <div class="navigation">
-            <ul>
-                <li><a href="./src/analytics/analytics.html" class="front-nav">Analytics</a></li>
-                <li><a href="#">Study</a></li>
-                <li><a href="#">Goverment</a></li>
-                <li><a href="#">Sectors</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
+    <h1>Data Generator</h1>
+    <div class="dropdowns">
+        <select id="dropdown1">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select>
+        <select id="dropdown2">
+            <option value="value1">Value 1</option>
+            <option value="value2">Value 2</option>
+            <option value="value3">Value 3</option>
+        </select>
+        <select id="dropdown3">
+            <option value="item1">Item 1</option>
+            <option value="item2">Item 2</option>
+            <option value="item3">Item 3</option>
+        </select>
+        <select id="dropdown4">
+            <option value="category1">Category 1</option>
+            <option value="category2">Category 2</option>
+            <option value="category3">Category 3</option>
+        </select>
+        <button id="generateButton">Go</button>
     </div>
+    <div id="tableContainer">
+        <table id="dataTable">
+            <!-- Table data will be generated here -->
+        </table>
+    </div>
+    <div class="back">
+        <a href="../../index.html">Back</a>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
